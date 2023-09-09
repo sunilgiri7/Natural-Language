@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 X_train
 
-!pip install transformers
+# !pip install transformers
 
 # this model is used to convert text data to numeric
 from transformers import DistilBertTokenizerFast
